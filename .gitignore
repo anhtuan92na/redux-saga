@@ -25,4 +25,4 @@ yarn-error.log*
 # webstorm editor
 /.idea
 /.git
-.log*
+debug.log
