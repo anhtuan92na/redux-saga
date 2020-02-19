@@ -15,6 +15,7 @@ module.exports = {
         semi: 1,
         quotes: [2, 'single'], // jsx use single quotes
         'react/prop-types': 1, // check prop-types exits
-        'react/jsx-max-props-per-line': 1 // enter new line prop object
+        'react/jsx-max-props-per-line': 1, // enter new line prop object
+        'react/jsx-uses-vars': 2 // not use var
     }
 };
