@@ -69,7 +69,7 @@ class Taskboard extends Component{
     }
 
     renderForm() {
-        let { open } = this.state;
+        var { open } = this.state;
         let xhtml = null;
         xhtml = (
             <TaskForm open={open}
