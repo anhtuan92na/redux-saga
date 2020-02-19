@@ -79,7 +79,7 @@ class Taskboard extends Component{
     }
 
     render() {
-        var { classes } = this.props;
+        let { classes } = this.props;
         return (
             <React.Fragment>
                 <div className={classes.taskBoard}>
