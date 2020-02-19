@@ -69,7 +69,7 @@ class Taskboard extends Component{
     }
 
     renderForm() {
-        var { open } = this.state;
+        let { open } = this.state;
         let xhtml = null;
         xhtml = (
             <TaskForm open={open}
@@ -79,7 +79,7 @@ class Taskboard extends Component{
     }
 
     render() {
-        const { classes } = this.props;
+        var { classes } = this.props;
         return (
             <React.Fragment>
                 <div className={classes.taskBoard}>
